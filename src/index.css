@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
+  background-color: #EEF0F4;
+
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 320px;
+  margin: 30px auto;
+}
+
+.input {
+  color: black;
+  background-color: #DCE1EB;
+  border: 0;
+  padding: 15px;
+  border-radius: 8px;
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
+  margin: 15px 0;
+}
+
+.addButton {
+  color: #FDFDFD;
+  background-color: black;
+  border: 0;
+  padding: 15px;
+  border-radius: 8px;
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+.cartImg {
+  width: 150px;
+  margin: 0 auto;
+}
+
+.shopping-list {
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 30px;
+  gap: 20px;
+}
+
+.shoppingListItems {
+  font-size: 30px;
+  background-color: #FFFDF8;
+  padding: 15px;
+  border-radius: 8px;
+  flex-grow: 1;
+  text-align: center;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2)
+}
+
